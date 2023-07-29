@@ -1,4 +1,4 @@
-//devuelve tru si es correcto y false si no es correcto
+//devuelve true si es correcto y false si no es correcto
 function validarCedula(cedula) {
 
             cedulaUltimoDigito = Number(cedula.slice(9, 10))
@@ -67,7 +67,7 @@ function validarCedula(cedula) {
 
 
 
-            // si todo sale buen el ultimo numero debe ser igual que el ultimo numero 
+            // si todo sale bien el ultimo numero debe ser igual que el ultimo numero 
             // de la cedula
             return numeroVerificador == cedulaUltimoDigito ? true : false;
 
