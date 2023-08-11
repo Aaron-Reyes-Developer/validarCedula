@@ -2,7 +2,7 @@
 function validarCedula(cedula) {
 
             // si no se introduce los 10 digitos
-            if(cedula.length < 10){
+            if(cedula.length < 10 || cedula.length > 10){
             return false
             }
             cedulaUltimoDigito = Number(cedula.slice(9, 10))
